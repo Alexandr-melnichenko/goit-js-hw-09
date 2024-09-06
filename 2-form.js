@@ -1,2 +1,2 @@
-import"./assets/styles-B4s-4mBC.js";console.log("form");
+import"./assets/styles-Co12G-4P.js";console.log("form");
 //# sourceMappingURL=2-form.js.map
