@@ -1,7 +1,7 @@
-// Описаний в документації
 import SimpleLightbox from "simplelightbox";
-// Додатковий імпорт стилів
+
 import "simplelightbox/dist/simple-lightbox.min.css";
+import '../css/sl-mod.css';
 
 const images = [
       {
@@ -86,30 +86,9 @@ const markup = images.map((image) => `<li class="gallery-item">
   new SimpleLightbox('.gallery-item a', { 
     captions: true,
     captionsData: 'alt',
-    captionsDelay: 250,
-    overlayOpacity: 0.9,
+    captionDelay: 250,
+    overlayOpacity: 0.7,
+    className: 'lightbox',
    });
-
-
-console.log(SimpleLightbox);
-
-
-// function imageClick (event) {
-//     event.preventDefault();
-//     if (event.target === event.currentTarget) {
-//     return;
-// }
-
-//  const imgUrl = event.target.closest(".gallery-link")
-//  const largeImgSrc = imgUrl.getAttribute('href');
-
-//  basicLightbox.create(`
-//     <img width="800" height="600" src=${largeImgSrc}>
-// `).show()
-
-// }
-
-//   galleryEl.addEventListener("click", imageClick);
-
 
 

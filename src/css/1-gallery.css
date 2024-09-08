@@ -26,3 +26,8 @@
         transform: scale(1.05);
     }
     
+    .lightbox {
+        background-color: rgba(46, 47, 66, 0.8);
+    }
+    
+    

@@ -1,0 +1,87 @@
+body {
+   background-color: #F5F5F5;
+}
+
+.feedback-form {
+    display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+
+border-radius: 8px;
+padding: 24px;
+width: 408px;
+height: 296px;
+
+background: #fff;
+
+font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+}
+
+textarea {
+    border: 1px solid #808080;
+border-radius: 4px;
+width: 360px;
+height: 80px;
+margin-top: 8px;
+}
+
+textarea:hover {
+    border: 1px solid #000000;
+}
+
+button {
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 10px;
+margin-top: 16px;
+border: none;
+border-radius: 8px;
+padding: 8px 16px;
+width: 95px;
+height: 40px;
+color: #fff;
+background: #4e75ff;
+}
+
+button:hover {
+    background-color: #6C8CFF;
+}
+
+
+label {
+    margin-bottom: 8px;
+}
+
+
+.feedback-form > label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+  
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px; 
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  }
+  
+  .feedback-form > label > input {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    margin-top: 8px;
+  }
+
+  .feedback-form > label > input:hover {
+  border: 1px solid #000000;
+  }
